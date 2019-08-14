@@ -3,11 +3,11 @@ CP1404/CP5632 - Practical
 Various examples of using Python string formatting with the str.format() method
 Want to read more about it? https://docs.python.org/3/library/string.html#formatstrings
 """
-
-name = "Gibson L-5 CES"
-year = 1922
-cost = 16035.40
-
+#
+# name = "Gibson L-5 CES"
+# year = 1922
+# cost = 16035.40
+#
 # # The ‘old’ manual way to format text with string concatenation:
 # print("My guitar: " + name + ", first made in " + str(year))
 #
@@ -18,7 +18,7 @@ cost = 16035.40
 #
 # # Formatting currency (grouping with comma, 2 decimal places):
 # print("My {} would cost ${:,.2f}".format(name, cost))
-
+#
 # # Aligning columns:
 # numbers = [1, 19, 123, 456, -25]
 # for i in range(len(numbers)):
