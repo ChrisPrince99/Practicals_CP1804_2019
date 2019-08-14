@@ -20,5 +20,5 @@ if total > 100:
 total -= total_discount
 print("Number of Items:", number_of_items)
 for i in range(number_of_items):
-    print("Price of item:", prices[i])
+    print("Price of item:")
 print("Total price for", number_of_items, "items:", total)
