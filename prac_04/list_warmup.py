@@ -16,5 +16,3 @@ numbers[6] = 1
 print(numbers[6])
 print(numbers[1:5])
 print(9 in numbers)
-
-
