@@ -16,6 +16,7 @@ max_length = 0
 for word in words_to_count:
     if len(word) > max_length:
         max_length = len(word)
+for word in words_to_count:
     print("{:{}} = {}".format(word, max_length, words_to_count[word]))
 
 # word_dictionary = {v: k for k, v in enumerate(text.split(" "))}
